@@ -41,7 +41,7 @@ function addBurgerToOrder(event){
   }
 }
 
-function delegateEventListenerToForm(event){
+function delegateEventListenerToForm(){
   customBurger.addEventListener("submit", postNewBurger)
 }
 
